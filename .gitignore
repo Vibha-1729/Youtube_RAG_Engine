@@ -1,15 +1,8 @@
-# Virtual environment & sensitive files
+# Virtual environment, secrets, & IDE configs
 venv/
 .env
+*.env
 .vscode/
 .ipynb_checkpoints/
 __pycache__/
-
-# Ignore all other folders besides langchain_rag
-langchain_chains/
-langchain_doc_loader/
-langchain_models/
-langchain_output_parsers/
-langchain_prompts/
-langchain_runnables/
-langchain_structured_output/
+*.pyc
